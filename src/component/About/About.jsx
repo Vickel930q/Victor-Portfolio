@@ -12,7 +12,7 @@ const About = () => {
 
       <div className="abt-textt">
         <h2>About Me</h2>
-        <p>I'm Victor, a passionate Frontend Developer, Graphic Designer, and Photographer with a knack for creating stunning visuals and intuitive user experiences.</p>
+        <p>I&aposm Victor, a passionate Frontend Developer, Graphic Designer, and Photographer with a knack for creating stunning visuals and intuitive user experiences.</p>
       </div>
     </section>
   );
