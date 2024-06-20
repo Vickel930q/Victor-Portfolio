@@ -1,0 +1,32 @@
+.about {
+    padding: 4rem 2rem;
+    background: #283618;
+    color: #fefae0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+  }
+
+ 
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 480px){
+    .about {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+  }
+  

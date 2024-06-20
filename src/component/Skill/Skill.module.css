@@ -1,0 +1,26 @@
+.skillContainer {
+    margin: 20px 0;
+  }
+  
+  .skillName {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .progressBar {
+    width: 100%;
+    background-color:#fefae0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 20px;
+    background-color:  #bc6c25;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px;
+    color: white;
+    border-radius: 8px 0 0 8px;
+  }
+  

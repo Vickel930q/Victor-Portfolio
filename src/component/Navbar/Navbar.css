@@ -1,0 +1,149 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #283618;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 9000;
+  margin-bottom: 20rem;
+}
+.logo {
+  font-size: 20px;
+  color: #fefae0;
+  padding: 20px;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.nav-items ul li {
+  margin-right: 25px;
+  height: 100%;
+  padding: 10px;
+}
+.nav-items ul li a {
+  text-decoration: none;
+  color: #fefae0;
+  font-size: 20px;
+}
+
+.nav-items .hamburger {
+  margin-right: 10px;
+  display: none;
+}
+.mobile-nav {
+  display: block;
+  z-index: 10;
+  color: black;
+  backdrop-filter: blur(10px);
+  background-color: #2d2d32;
+  transition: all 4s ease-in-out;
+  animation: fadeIn 1s ease-in-out forwards 1;
+  margin-top: 4.7rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  to {
+    opacity: 30;
+    transform: translateX(0);
+  }
+}
+.mobile-nav,
+.nav-links {
+  color: #fefae0;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-right: 20px;
+  font-weight: 600;
+  gap: 3rem;
+}
+
+/* .mobile-nav ul{
+    text-decoration: none;
+    list-style: none;
+    gap: 55rem;
+}
+
+.mobile-nav ul a{
+    margin-right: 25px;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    gap: 55rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile-nav ul li:hover{
+    background-color: #c91515;
+    color: white;
+
+}
+
+.mobile-nav ul a{
+    text-decoration: none;
+    color:  #fefae0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15rem;
+    gap: 15rem;
+
+} */
+
+/* Tablet and below */
+@media (max-width: 768px) {
+  .nav-items {
+    flex-direction: column;
+  }
+  .nav-items ul li {
+    margin-right: 10px;
+  }
+  .nav-items .hamburger {
+    display: block;
+  }
+}
+
+/* Mobile and below */
+@media (max-width: 480px) {
+  .nav-items {
+    flex-direction: column;
+  }
+  .nav-items ul li {
+    margin-right: 5px;
+    display: none;
+  }
+  .nav-items .hamburger {
+    display: block;
+    z-index: 800;
+  }
+
+  .mobile-nav {
+    background-color: #bc6c25;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(37, 36, 36, 0.164);
+    position: fixed;
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    padding: 20px;
+    padding-top: 5rem;
+    text-align: center;
+    right: 0;
+    color: #283618;
+  
+  }
+}
