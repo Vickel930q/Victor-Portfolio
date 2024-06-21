@@ -111,7 +111,7 @@
     margin-right: 10px;
   }
   .nav-items .hamburger {
-    display: block;
+    display: none;
   }
 }
 

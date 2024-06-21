@@ -22,10 +22,27 @@
     margin: 0 auto;
   }
 
+  @media (max-width: 768px){
+    .about{
+      flex-direction: column;
+      gap: 2rem;
+
+    }
+
+    .abt-image{
+      margin-top: 12rem;
+    }
+      
+  }
+
   @media (max-width: 480px){
     .about {
       flex-direction: column;
       gap: 15px;
+    }
+
+    .abt-image{
+      margin-top: 0;
     }
     
   }
