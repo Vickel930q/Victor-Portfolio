@@ -74,6 +74,33 @@ const Portfolio = () => {
           </ul>
         </footer>
       </div>
+      
+      <div className="portfolio-gallery3">
+        <header>
+          
+          <div className="portfolio-item">
+
+            <Link
+              href="https://vikes-logistics.brimble.app/"
+
+            >
+             <Image src='/external-link-icon.svg'width={30} height={30} alt="visit site"/>
+            </Link>
+          </div>
+
+        </header>
+        <div className="body">
+          <h3>Vike Logistics</h3>
+          <p>Website Design for logistics</p>
+        </div>
+
+        <footer>
+          <ul className="tech-list">
+            <li>Next Js</li>
+            <li>Css</li>
+          </ul>
+        </footer>
+      </div>
     </section>
   );
 };
